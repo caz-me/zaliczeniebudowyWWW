@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pl">
+<html>
+<head>
+<link rel="stylesheet" href="styles.css">
+<title>Artykuły</title>
+</head>
+<body>
+<header>
+<div class="content">
+<div class=container">
+<h1>
+Biuro podróży na Syberię
+</h1>
+<nav>
+<ul>
+<li><a id="currentpage" href="index.html">Start</a>
+</li>
+<li><a href="rejestracja.html">Rejestracja</a>
+</li>
+<li><a href="logowanie.html">Logowanie</a>
+</li>
+<li><a href="galeria.html">Galeria</a>
+</li>
+<li><a href="artykuly.html">Artykuły</a>
+</li>
+<li><a href="o_autorze.html">O autorze</a>
+</li>
+<li><a href="kontakt.html">Kontakt</a>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</header>
+
+<section id="main">
+<div class="content">
+<article class="artykul">
+<div class="art">
+<h1>
+Taka przygoda zdarza się w życiu tylko raz!</h1>
+<p><br>Jeśli jesteś znudzony swoim życiem, czujesz, że czegoś Ci brakuje i szukasz nowych wyzwań, to trafiłeś w odpowiednie miejsce!
+</p>
+<p>Jesteśmy firmą, która zajmuje się organizowaniem wyjazdów wypoczynkowych na Syberii. Nasze kurorty wypoczynkowe spełnią wymagania nawet najbardziej wymagających klientów.<br> Masz dosyć pracy z ludźmi? Gwarantujemy, że podczas pobytu będziesz w stanie się wyciszyć, znaleźć spokój ducha i pojednać się z naturą.
+</p>
+<p>Poniżej zamieszczamy zdjęcia ośrodka wypoczynkowego oraz otaczającą go naturę.</p>
+<div class="show_img">
+<img src="galery/chata.jpg" alt=""><br>
+<img src="galery/krajobraz.jpg" alt="">
+</div>
+<h2><br>Masz pytania? Skomentuj pod artykułem.
+</h2>
+<section class="comments clearfix">
+                <div class="comm">
+                    <div class="profileimg">
+                        <img src="galery/zdj2.jpg" alt="">
+                    </div>
+                    <div class="commenttext clearfix">
+                        <p><span>Wladimir 16.06.2019 15:32</span></p>
+                        <p> Super artykuł!</p>
+                    </div>
+                </div>
+                <div class="comm">
+                    <div class="profileimg">
+                        <img src="galery/zdj1.jpg" alt="">
+                    </div>
+                    <div class="commenttext clearfix">
+                        <p><span>Anonim 16.06.2019 12:41</span></p>
+                        <p>Brakuje mi pomysłu na komentarz.</p>
+                    </div>
+                </div>
+
+                <form class="form" id="contactForm" method="post" novalidate action="/send-scripts.php">
+                    <div class="form-row">
+                        <label for="field-name">Login</label>
+                        <input type="text" name="name">
+                    </div>
+                    <div class="form-row">
+                        <label for="field-message">Komentarz</label>
+                        <textarea name="message"></textarea>
+                    </div>
+                    <div class="form-row">
+                        <button type="submit" class="submit-btn">
+                            Dodaj komentarz
+                        </button>
+                    </div>
+                </form>
+                </form>
+            </section>
+</div>
+</article>
+</div>
+</section>
+
+
+<footer>
+<p><br>Piotr Szczepaniak, 14.06.2019r.</p>
+</footer>
+
+</body>
+</html>

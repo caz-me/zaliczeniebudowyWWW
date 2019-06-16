@@ -1,0 +1,43 @@
+table.game_table {
+	
+	border-collapse: collapse;
+}
+h1{
+
+	background-color: silver;
+	margin-left:auto;
+	margin-right:auto;
+	
+}
+
+table.game_table, td, th {
+	border: 1px solid black;
+	
+}
+
+img {
+	width: 100px;
+	height: 100px;
+}
+
+.hidden {
+	opacity: 0;
+}
+
+.selected {
+	opacity: 0.5;
+}
+
+.scored {
+	opacity: 1.0;
+	
+}
+body{
+	display:flex;
+	
+}
+.left{
+	opacity: 0.5;
+	text-align:right;
+}
+

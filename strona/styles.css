@@ -1,0 +1,302 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+body {
+	font-family:arial;
+    background-color: #f1f1f1;
+	
+}
+
+ul {
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(255, 255, 255, 0.6);
+    z-index: 999;
+}
+
+li {
+    float: left;
+}
+
+
+
+li a {
+    display: inline-block;
+    color: #8d8e8b;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+}
+
+
+
+
+
+header {
+    margin: 52px 0 100px 0;
+    position: relative;
+    background-color: #f0f2f3;
+    min-height: 400px;
+    background-image: url(galery/baner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+
+}
+
+
+header h1 {
+    font-size: 120px;
+    font-weight: 250;
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+
+h1{
+	font-size: 30px;
+	font-weight: 100;
+	text-align: center;
+	
+	
+}
+
+h2{
+	font-size: 15px;
+	font-weight: 100;
+	text-align: center;
+	
+	
+}
+
+
+
+
+
+footer {
+    position: relative;
+    margin-top: 95px;
+    text-align: center;
+    height: 100px;
+    background-color: #FFFFFF;
+
+}
+
+
+
+
+
+p{
+	
+	text-align:center;
+	display: block;
+  margin-top: 1em;
+  margin-bottom: 1em;
+	
+}
+
+div.rejestracja {
+    width: 350px;
+    height: 550px;
+    margin-left: auto;
+	margin-right:auto;
+    position: center;
+
+
+
+	
+    text-align: center;
+    border: black 1px solid;
+}
+
+
+div.register form {
+    margin-top: 40px;
+}
+
+
+main img {
+    max-width: 333px;
+    max-height: 250px;
+    
+   
+}
+main table tr td {
+    width: 40%;
+    height: 250px;
+}
+
+main table {
+    padding-bottom: 30px;
+}
+
+
+div.galeria{
+	width:700px;
+	height:700px;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+	
+
+
+div.reg{
+	height:500px;
+}
+
+div.logowanie{
+	width: 300px;
+    height: 300px;
+    margin-left: auto;
+	margin-right:auto;
+    position: center;
+
+
+
+	
+    text-align: center;
+    border: black 1px solid;
+	
+}
+div.art{
+	text-align:center;
+}
+div.art img{
+
+	width:500px;
+	height:400px;
+
+}
+div.show_img{
+	
+	display:block;
+
+}
+
+.form-row:first-child {
+    padding-top: 100px;
+}
+
+.form-row:last-child {
+    padding-bottom: 100px;
+}
+
+.form {
+	text-align:center;
+    margin: auto;
+    max-width: 40rem;
+
+}
+
+.form .form-row {
+    margin-bottom: 1rem;
+}
+
+.form input[type=text],
+.form input[type=email],
+.form textarea,
+.form .checkbox-cnt .state {
+    box-shadow: inset 0 1px 5px rgba(0, 0, 0, 0.01);
+}
+
+.form input[type=text],
+.form input[type=email],
+.form textarea {
+    border-radius: 0.2rem;
+    padding: 0.8rem;
+    border: 1px solid #aaaaaa;
+    display: block;
+    width: 100%;
+    color: #666666;
+}
+
+.form input[type=text]:focus,
+.form input[type=email]:focus,
+.form textarea:focus {
+    border-color: #9DC9F5;
+    outline: none;
+}
+
+.form textarea {
+    height: 10rem;
+}
+
+.form label {
+    font-weight: bold;
+    display: block;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+
+.form .submit-btn {
+    font-family: sans-serif;
+    padding: 1rem 2rem;
+    background: #047eaa;
+    border: 0;
+    border-radius: 0.2rem;
+    color: #ffa;
+    font-size: 1.1rem;
+    font-weight: bold;
+    transition: 0.3s background-color;
+}
+
+div.comm {
+    width: 100%;
+    margin-top: 40px;
+	height:200px;
+	
+		margin-left:auto;
+	margin-right:auto;
+}
+div.profileimg{
+	height:100px;
+	
+}
+
+div.comm div.profileimg img {
+    float: center;
+    height: 100px;
+    width: 10%;
+    margin: 5px;
+    border-radius: 50%;
+	
+}
+
+div.commenttext {
+    
+    margin: 5px;
+    width: 100%;
+    height: 150px;
+	text-align:center;
+    font-size: 16px;
+}
+
+div.commenttext span {
+    margin-bottom: 5px;
+    color: #047edd;
+}
+
+div.form {
+    margin-top: 50px;
+}
+
+img{
+	margin-left:auto;
+	margin-right:auto;
+}
